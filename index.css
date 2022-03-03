@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }  
+body { 
+    background-color: #401457;
+    color: white; 
+    font-family: "Merriweather", sans-serif;
+}
+div header {
+    background-color: #3E033F;
+}
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#header li {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#header li:hover {
+    background-color: #323232;
+}
+#Intro li:hover {
+    background-color:#AA61CE;
+    color: #9F0088;
+}
+#Intro li a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+th { 
+    padding-left: 15px;
+    text-align: left;
+    height: 40px;
+}
+table {
+    border-collapse: collapse;
+    border-color: hsl(280, 63%, 66%);
+}
+.column-side {
+    width: 30%;
+    background-color: hsl(280, 63%, 66%);
+}
+.column-middle {
+    width: 70%;
+}
+
+#Bio {
+    background-color: #3E033F;
+    text-align: center;
+}
+#Family{
+    background-color: #3E033F;
+    text-align:center;
+}
+#Affiliation{
+    background-color: #3E033F;
+    text-align:center;
+}
+#Movieinfo{
+    background-color: #3E033F;
+    text-align:center;
+}
+#Name{
+    background-color: #3E033F;
+    text-align:center;
+}
+.table2{
+    float: right;
+    font-size: 0.75em;
+    padding-top: 0;
+}
+.a{
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    vertical-align: top;
+}
+.table2 tr
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
